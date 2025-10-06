@@ -8,9 +8,9 @@ public class Moto extends Veiculo{
         super.mostrardados();
         System.out.println("Cilindradas: " + cilindradas);
     }
-    public void mostrardados(boolean exibir_cp_ou_cl) {
+    public void mostrardados(boolean exibir_hp_ou_cc) {
         super.mostrardados();
-        if (exibir_cp_ou_cl) {
+        if (exibir_hp_ou_cc) {
             double cavalosPotencia = cilindradas / 15.0;
             System.out.printf("Potência Estimada: %.2f HP%n", cavalosPotencia);
         } else {
